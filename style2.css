@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+}
+.grid {
+    display: grid;
+    min-height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr auto;
+}
+
+.fa-cloud-sun{
+    color: #01A7C2;
+    font-size: 70px;
+    align-self: center;
+    
+    margin-left: -200px;
+}
+
+
+.menubar li:hover ul {
+    display: block;
+  }
+  
+  /* changing the text color of the <a> element when the li containing it is hovered over */
+  .menubar li ul li:hover a {
+    color: white;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+  }
+ #dropdown_menu{
+      margin: 0px;
+  }
+  
+  .menubar li {
+   
+    padding: 14px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    background:#006989;
+    border-radius: 12px;
+    float: right;
+    align-self: baseline;
+    margin-top: 105px;
+    
+    
+    
+    
+
+  }
+  .subheading {
+      font-size: 12px;
+    
+  }
+  .menubar li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    justify-content: flex-end;
+    font-size: 1vw ;
+  }
+  .menubar li:hover {
+    background: darkslategray;
+  }
+  .menubar li:hover a {
+    color: white;
+  }  
+  .menubar li ul {
+    display: none;
+      position: absolute;
+      left: 0;
+           }
+    .menubar li ul li {
+        padding: 0.2rem;
+        width: 100%;
+        margin: 0;
+      }  
+      .slicknav {
+        display: none;
+      }
+      @media only screen and (max-width: 767px) {
+        .slicknav ul li a {
+          font-size: 0.875em;
+          
+          width: 20%;
+        }
+        .menubar {
+            display: none;
+        }
+      }
+      
+     
+      
+      @media only screen and (min-width: 767px) {
+        /* Hide the #nav_menu at 767 px */
+        #mobilemenu {
+          display: none;
+        }
+      
+        /* Display the slicknav version of the menu at 767px */
+        .slicknav {
+          display: inline-block;
+        }
+        
+          
+          .slicknav .slicknav_row,
+          .slicknav a {
+            display: inline-block;
+            max-width: 20%;
+            max-height:20%;
+          }
+          .menubar li { 
+            
+            margin-bottom: 0px;
+            margin-block-start: 5px;
+          }
+          .slicknav ul {
+           
+            text-align: center;
+           
+            background-color:  #A3Bac3 ;
+            
+          }
+         
+          
+        }
+        .fa-cloud-sun{ 
+            margin: auto;
+        }
+      /* Change the font size of the .nav_menu at 767px */
+   
+.margin2 {
+    margin-inline-end: 20px;
+    font-size: 8px;
+    text-align: left;
+}
+body {
+    width: 100%; /* changed from 960px */
+    max-width: 100%; /* maximum width of page */
+    margin: 0 auto;
+    background-color: white   ;
+    background-image: url("cloud.jpg");
+    display: inline-block;
+  } 
+  .containter {
+      display: inline-block;
+    align-content: Center;
+    
+
+  }
+  .containter2 {
+      display: inline-block;
+    margin-left: 20px;
+   white-space: nowrap;
+  }
+  
+      
+      
+  header {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+     margin-top: -20px;
+      background-color:  #A3Bac3 ;
+  /* 930 ÷ 960 x 100 */
+   font-size: 40px;
+   font-family: 'Courier New', Courier, monospace  ;
+   font-weight: bold;
+text-align: center;
+   
+   
+    
+    color: #1c1c1c;
+    
+  }
+  
+  
+  .column {
+    width: 50%; /* 570 ÷ 960 x 100 */
+   /* 15 ÷ 960 x 100 */
+    margin-left: 60px;
+    font-size: 15px;
+    color:#1c1c1c;
+    display: inline-block;
+    text-align: left;
+    
+    
+    font-family: Arial;
+
+  }
+  
+  .heading {
+      color: #1c1c1c;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      font-weight: bold;
+ 
+  }
+  .center2 {
+    text-align: center;
+    color:#1c1c1c;
+    font-size: 17px;
+    margin-left: 200px;
+  
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  }
+  .center {
+      text-align: center;
+      color:#1c1c1c;
+      font-size: 15px;
+    
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .h2 {
+    width: 50%; /* 330 ÷ 960 x 100 */
+    padding: 15px 1.5625%; /* 15 ÷ 960 x 100 */
+    margin-top: 250px;
+    text-align: left;
+    color: #1c1c1c;
+    font-family: Arial;
+    display: inline-block;
+
+    align-content: flex-end;
+   
+  
+  }
+  .top{
+      margin-top: -12px;
+  }
+  main{
+      display: flex;    
+      
+  }
+  footer {
+      display: flex;
+      
+      justify-content:space-between;
+
+    width: 100%; /* 930 ÷ 960 x 100 */
+    font-size: 15px;
+    background-color: #A3Bac3;
+  color:  #1c1c1c;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  }
+  .margin {
+    
+    margin-top: 45px;
+    margin-inline-start: 900px;
+}
+  @media screen and (max-width: 767px)
+{
+header {
+    display: flex-box;
+    
+    justify-content: space-around;
+background-color:  #A3Bac3;
+width: auto;
+text-align: center;
+}
+main {
+    display: inline-block;
+}
+    
+ .column {
+      display:inline-block;
+      
+      width: 100%;
+      text-align: center;
+      margin:auto;
+ }
+ .item1 {
+    display:inline-block;
+    
+    width: 100%;
+    text-align: center;
+    margin:auto;
+}
+
+
+ .h2 {
+    display: inline-block;
+     width: 100%;
+     clear: both;
+     text-align: center;
+     margin: auto;
+     border-style: none;
+ }
+ .margin {
+ margin: auto;
+
+ }
+ .fa-cloud-sun{ 
+     margin: auto;
+ }
+  
+}
+.center2 {
+    margin: auto;
+}
+#down {
+    margin-top: auto;
+}
